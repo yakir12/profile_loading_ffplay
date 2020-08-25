@@ -31,10 +31,9 @@ Follow these steps to build `ffmpeg` with/out `ffplay` and then profile the load
 # Results
 
 On my Linux (Debian) machine I get these times:
-```
+
 |        |  vanilla	    | with ffplay |
 |--------|--------------|-------------|
 | v1.5.0 |  890.907 ms  | 2.310 s     |
 | master |  905.587 ms  | 2.371 s     |
-```
 
